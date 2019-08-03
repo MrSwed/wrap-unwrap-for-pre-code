@@ -1,0 +1,9 @@
+pre {position:relative;}
+input[type="checkbox"][switch] {
+  position: absolute;
+  display: block;
+  right:0.5em;
+  top:0.5em;
+}
+
+pre input[switch]:checked + code { white-space: pre-wrap; }
