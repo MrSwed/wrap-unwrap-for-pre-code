@@ -1,4 +1,5 @@
 pre {position:relative;}
+pre code{display:block}
 input[type="checkbox"][switch] {
   position: absolute;
   display: block;
@@ -6,4 +7,4 @@ input[type="checkbox"][switch] {
   top:0.5em;
 }
 
-pre input[switch]:checked + code { white-space: pre-wrap; }
+pre input[switch]:checked + code { white-space: pre-wrap; overflow-y:auto;margin-right:1em}
